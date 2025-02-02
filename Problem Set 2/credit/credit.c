@@ -1,8 +1,9 @@
 #include <cs50.h>
 #include <stdio.h>
+#include <stdbool.h>
 
 long getNumber(void);
-int isValid(long n);
+bool isValid(long n);
 void result(long numbercard);
 
 int main(void)
@@ -23,14 +24,13 @@ long getNumber(void)
     return n;
 }
 
-int isValid(long n)
+bool isValid(long n)
 {
     int sum1 = 0;
     int sum2 = 0;
-
     int sec = 0;
-
     int resto = 0;
+
     while (n > 0)
     {
         if (sec == 0)
@@ -38,7 +38,6 @@ int isValid(long n)
             resto = n % 10;
             n = n / 10;
             sum2 = sum2 + resto;
-
             sec = 1;
         }
         else
@@ -46,26 +45,21 @@ int isValid(long n)
             resto = 2 * (n % 10);
             n = n / 10;
             sum1 = sum1 + resto % 10 + (resto / 10) % 10;
-
             sec = 0;
         }
     }
 
-    if ((sum1 + sum2) % 10 == 0)
-    {
-        return 1;
-    }
-    else
-        return 0;
+    return (sum1 + sum2) % 10 == 0;
 }
 
 void result(long numbercard)
 {
-    if (isValid(numbercard) == 0)
+    if (!isValid(numbercard))
     {
         printf("INVALID\n");
         return;
     }
+
     int length = 0;
     for (long l = numbercard; l > 0; l /= 10, length++)
         ;
