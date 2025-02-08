@@ -50,13 +50,3 @@ The files are organized by problem sets, following the structure of the course:
 ## 🎓 About CS50x
 
 CS50x is an introductory Computer Science course that covers essential programming concepts, algorithms, data structures, and software development practices.
-
-## 📜 License
-
-This repository is licensed under the MIT License, allowing you to use and modify the code freely.
-
----
-
-🔗 **Rodrigo Frutuoso**  
-📧 [Email] | 🌍 [Website] | 🐙 [GitHub](https://github.com/Rodrigo-Frutuoso)
-
