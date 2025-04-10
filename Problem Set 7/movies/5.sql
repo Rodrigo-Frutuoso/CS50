@@ -1,0 +1,9 @@
+SELECT
+    TITLE,
+    YEAR
+FROM
+    MOVIES
+WHERE
+    LOWER(TITLE) LIKE LOWER('Harry Potter%')
+ORDER BY
+    YEAR ASC;
