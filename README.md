@@ -44,7 +44,7 @@ The files are organized by problem sets, following the structure of the course:
    ```
 4. Run Python scripts:
    ```bash
-   python3 script.py
+   python script.py
    ```
 
 ## 🎓 About CS50x
