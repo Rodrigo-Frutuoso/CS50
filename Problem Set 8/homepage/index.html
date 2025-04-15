@@ -1,0 +1,62 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo Frutuoso - Home</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Rodrigo Frutuoso</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQH6Y_WYP1hJIg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723542927023?e=1750291200&v=beta&t=cDAQTLFpeYjkqE75Jn6fUaWfmmxjfqza9Ho-SlUwlrA" 
+             alt="Rodrigo Frutuoso" 
+             class="rounded-circle mb-3" 
+             style="width: 150px; height: 150px; object-fit: cover; border: 5px solid #007bff;">
+        <p class="lead">Welcome to My Portfolio</p>
+    </header>
+
+    <main class="container my-5">
+        <section class="text-center mb-5">
+            <p>🎓 I'm a software and programming student at the Faculty of Sciences, University of Lisbon.</p>
+            <p>💻 Passionate about technology, coding, and always looking to improve my skills.</p>
+            <p>📚 Open to collaborating on interesting projects and learning from other developers.</p>
+        </section>
+
+        <section>
+            <h2>Featured Project</h2>
+            <div id="featured-project" class="card">
+                <!-- The latest repository will be loaded here -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; <span id="currentYear"></span> Rodrigo Frutuoso</p>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

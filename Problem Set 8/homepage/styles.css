@@ -1,0 +1,70 @@
+/* styles.css */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+main {
+    flex: 1;
+    margin-bottom: 0; 
+    padding-bottom: 0; 
+    padding-top: 0; 
+    margin-top: 0; 
+}
+
+main > section {
+    margin-bottom: 0.5rem; 
+}
+
+footer {
+    margin-top: auto;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+    height: 50px; 
+}
+
+.jumbotron {
+    background-color: #e9ecef;
+    padding: 1rem 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: .3rem;
+}
+
+.card {
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    padding: -21rem;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+#github-repos .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#github-repos .card:hover {
+    transform: translateY(-5px);
+}
