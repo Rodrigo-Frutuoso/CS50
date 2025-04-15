@@ -23,7 +23,9 @@ The files are organized by problem sets, following the structure of the course:
 - **Problem Set 7**  
   Working with relational databases and SQL.
 - **Problem Set 8**  
-  Web development using Flask and JavaScript.
+  Web development using HTML, CSS and JavaScript.
+- **Problem Set 9**  
+  Introduction to Flask, a Python web framework, to build dynamic web applications. 
 - **Final Project**  
   A capstone project to apply everything learned in the course.
 
