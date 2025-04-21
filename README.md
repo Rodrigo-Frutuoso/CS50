@@ -48,6 +48,10 @@ The files are organized by problem sets, following the structure of the course:
    ```bash
    python script.py
    ```
+5. Run Flask applications:
+   ```bash
+   flask run
+   ```
 
 ## 🎓 About CS50x
 
